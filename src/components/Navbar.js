@@ -3,12 +3,17 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
-        <nav className='navbar bg-slate-500 '>
-            <div className='nav-filler flex items-start relative'>
+        <nav className='navbar bg-black '>
+            <div className='nav-filler flex justify-between items-end'>
                 <Link className='logo ' to='/'>
                     <img src={logo} alt='Brand' className='w-12 h-12' />
                 </Link>
-                <h1 className='m-auto text-4xl text-center'>Chess</h1>
+                {
+                    <img src='https://thumbs.dreamstime.com/b/chess-word-chess-pieces-cutouts-85849186.jpg' className='h-10'/>
+                }
+                <Link className='logo ' to='/'>
+                    <img src={logo} alt='Brand' className='w-12 h-12' />
+                </Link>
             </div>
         </nav>
     );
