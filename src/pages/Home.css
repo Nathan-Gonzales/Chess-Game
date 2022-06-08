@@ -7,6 +7,11 @@
 }
 
 .page-container{
-    background-image: url('https://i.pinimg.com/originals/76/b7/d5/76b7d5949464a6b1485a0a643d0188bf.jpg')
+    background-image: url('https://i.pinimg.com/originals/76/b7/d5/76b7d5949464a6b1485a0a643d0188bf.jpg');
+    background-size: 100%;
+    grid-template-columns: 1fr 2fr 1fr;
+}
 
+.board{
+    background-image: url('/src/images/clearbackground.png')
 }
