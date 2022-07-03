@@ -12,6 +12,8 @@ function testing(){
 function Home(){
 
     useEffect(() => {
+        // This is where the pieces will be rendered on load
+        
 
     }, []);
 
